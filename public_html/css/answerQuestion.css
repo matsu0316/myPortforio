@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+.answer{
+    padding:5px 0;
+    width:130px;
+}
+.correct{
+    background-color: rgb(115, 195, 226);
+    color:white;
+}
+.wrong{
+    background-color: rgb(218, 93, 93);
+    color:white;
+}

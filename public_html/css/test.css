@@ -1,0 +1,83 @@
+body{
+    margin-top:70px;
+    background-image: url("../img/37856.png");
+    background-size:300px;
+    background-repeat:default;
+}
+.calender{
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+}
+.calender h1{
+}
+tbody{
+    text-align:center;
+    font-weight:normal;
+}
+.week{
+    font-weight:bold;
+}
+thead td{
+    font-weight:bold;
+    padding:3px 0;
+}
+tbody td{
+    padding:10px 16px;
+}
+.scheduled{
+}
+tbody tr{
+    border-bottom:1px solid;
+}
+.calender table{
+    margin:0 auto;
+    border-collapse: collapse;
+}
+.sunday{
+    color:red;
+}
+.saturday{
+    color:blue;
+}
+.indexValue{
+    display:none;
+}
+.busy{
+    font-size: 25px;
+    font-weight: bold;
+    opacity:0.7;
+    position:absolute;
+    z-index:100;
+    color:red;
+}
+.free{
+    font-size: 25px;
+    font-weight: bold;
+    opacity:0.7;
+    position:absolute;
+    z-index:100;
+    color:blue;
+}
+.normal{
+    font-size: 25px;
+    font-weight: bold;
+    opacity:0.7;
+    position:absolute;
+    z-index:100;
+}
+.today{
+    border:1px solid;
+    background-color: rgb(196, 8, 8);
+    color:white;
+    border-radius:20px;
+    padding:0 10px;
+}
+.day{
+    font-size:12px;
+    font-weight:bold;
+    position:relative;
+    z-index:50;
+    top:-9px;
+    left:-9px;
+}

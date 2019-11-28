@@ -1,0 +1,14 @@
+body{
+    text-align:center;
+}
+.makeQ{
+    margin:20px 0;
+    height:70px;
+    width:170px;
+}
+#selectNum{
+    margin-bottom:10px;
+}
+.answer4{
+    margin-bottom:7px;
+}
